@@ -1,0 +1,9 @@
+{
+    "search_endpoint": "",
+    "search_api_key": "",
+    "index_name": "",
+    "GOOGLE_API_KEY": "",
+    "blob_endpoint": "",
+    "blob_api_key": "",
+    "blob_connect_str": ""
+}
