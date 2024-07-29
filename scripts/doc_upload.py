@@ -46,7 +46,7 @@ def main():
             document_paths.append(path)
 
     # Initialize Blob Service Client
-    connect_str = "DefaultEndpointsProtocol=https;AccountName=teststorage6262024;AccountKey=DIokN/+/h5VvByCS6TZiOJoTXxeQvDZj5KK/IKFMDrKKG7+W5m8zsw5i4k4tL6FTN46NuK+hBeQ9+ASt3OMLQQ==;EndpointSuffix=core.windows.net"
+    connect_str = config["blob_connect_str]
     blob_service_client = BlobServiceClient.from_connection_string(connect_str)
 
     # Container name for chunked documents
