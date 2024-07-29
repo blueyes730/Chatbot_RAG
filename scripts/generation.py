@@ -56,7 +56,6 @@ def make_rag_prompt(query: str, relevant_passages: list[str]):
   return prompt
 
 def generate(query: str, relevant_passages: list[str]):
-    # GOOGLE_API_KEY = "AIzaSyA2HjARiyrc5BB5grH-0NhKLeiJlLx1J3Q"
     GOOGLE_API_KEY = config["GOOGLE_API_KEY"]
     gemini_api_key = GOOGLE_API_KEY
     if not gemini_api_key:
